@@ -1,0 +1,80 @@
+
+.container {
+    width: 100%;
+  }
+  .columna {
+    float: left;
+    width: 50%;
+  }
+  .elemento {
+    margin: 10px;
+    padding: 10px;
+    height: 75px;
+    background-color: #f0f0f0;
+    border: 1px solid #080808;
+  }
+  .elemento1 {
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border: 1px solid #080808;
+  }
+  .elemento2 {
+    margin: 10px;
+    padding: 10px;
+    height: 65px;
+    background-color: #f0f0f0;
+    border: 1px solid #d11800;
+  }
+
+  .elemento3 {
+    margin: 10px;
+    padding: 10px;
+    height: 35px;
+    background-color: #f0f0f0;
+    border: 1px solid #d11800;
+  }
+  .elemento4 {
+    margin: 10px;
+    padding: 10px;
+    height: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #c000d1;
+  }
+  
+  .elemento5 {
+    margin: 10px;
+    padding: 10px;
+    height: 25px;
+    background-color: #f0f0f0;
+    border: 1px solid #001fd1;
+  }
+  .elemento6 {
+    margin: 10px;
+    padding: 10px;
+    height: 65px;
+    background-color: #f0f0f0;
+    border: 1px solid #d17300;
+  }
+  .elemento7 {
+    margin: 10px;
+    padding: 10px;
+    height: 45px;
+    background-color: #f0f0f0;
+    border: 1px solid #d1008b;
+  }
+  .elemento8 {
+    margin: 10px;
+    padding: 10px;
+    height: 125px;
+    background-color: #f0f0f0;
+    border: 1px solid #00d115;
+  }
+  
+  /* Limpieza */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
