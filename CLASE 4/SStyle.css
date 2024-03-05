@@ -1,0 +1,68 @@
+#title{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 135, 156);
+    align-items: center;
+    color: rgb(0, 0, 0);
+  }
+
+  @media (max-width:1024px){
+    #title{
+      background-color: rgb(231, 135, 156);  
+    }
+
+  }
+  @media (max-width:480px)and(min-width:200px){
+    #title{
+        background-color: yellow;
+    }
+  }
+  #links{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .Intro{
+    border: 2px solid green;
+
+  }
+  .Intro :nth-child(2){
+    text-align: center;
+  }
+  #IMG1 {
+    width: 100%;
+  }
+.AutorP{
+    display: flex;
+    justify-content: flex-start;
+}
+.Autor{
+    text-align: center;
+    width: 50%;
+}
+#Vespasiano{
+    width: 100%;
+}
+.AutorP2{
+    display: flex;
+   justify-content: flex-end;
+
+}
+.Autor2{
+    text-align: center;
+    width: 50%;
+}
+#Cesar{
+    width: 100%;
+}
+.EnlacesT{
+    display: flex;
+   justify-content: flex-end;
+   padding: 20px;
+}
+.Enlaces{
+    border: 5px solid black;
+    background-color: rgb(231, 135, 156);
+    padding: 2px;
+
+}
