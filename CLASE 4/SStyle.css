@@ -35,6 +35,7 @@
 .Autor{
     text-align: center;
     width: 50%;
+    
 }
 #Vespasiano{
     width: 100%;
@@ -51,6 +52,9 @@
 #Cesar{
     width: 100%;
 }
+.AutorP3{
+    display: none;
+}
 .EnlacesT{
     display: flex;
    justify-content: flex-end;
@@ -63,4 +67,53 @@
 
 }
 
+}
+@media (min-width:480px){
+    #title{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 135, 156);
+    align-items: center;
+    color: rgb(0, 0, 0);
+    
+    }
+
+    .Clink{
+        display: flex;   
+        border: 2px solid green;    
+    }
+    #links{
+        border: 2px solid;
+        display: flex;
+        width: 25%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Intro{
+        display: none;
+
+    }
+    
+    #IMG1{
+        width: 50%;
+    }
+    #Vespasiano{
+        width: 50%;
+    }
+    #Cesar{
+        width: 50%;
+    }
+    #Augusto{
+        width: 50%;
+    }
+    .Cautor{
+        border: 2px solid red;
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+    }
+    #P{
+        display: none;
+    }
 }
