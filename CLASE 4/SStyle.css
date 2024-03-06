@@ -18,6 +18,9 @@
     justify-content: space-around;
     padding: 10px;
     }
+    #Menu{
+        display: none;
+    }
   .Intro{
     border: 2px solid green;
 
@@ -55,6 +58,9 @@
 .AutorP3{
     display: none;
 }
+.Buttons{
+    display: none;
+}
 .EnlacesT{
     display: flex;
    justify-content: flex-end;
@@ -64,7 +70,9 @@
     border: 5px solid black;
     background-color: rgb(231, 135, 156);
     padding: 2px;
-
+}
+.EnlacesT1{
+    display: none;
 }
 
 }
@@ -82,12 +90,13 @@
         display: flex;   
         border: 2px solid green;    
     }
-    #links{
+    .LinkL{
         border: 2px solid;
         display: flex;
-        width: 25%;
+        width: 100%;
         flex-direction: column;
         text-align: center;
+        justify-content: space-between;
     }
 
     .Intro{
@@ -98,22 +107,82 @@
     #IMG1{
         width: 50%;
     }
+    .Autor{
+        text-align: center;
+    }
     #Vespasiano{
-        width: 50%;
+        width: 45%;
+        padding: 10px;
+    }
+    .Autor2{
+        text-align: center;
     }
     #Cesar{
-        width: 50%;
+        width: 58%;
+        padding: 10px;
+    }
+    .Autor3{
+        text-align: center;
     }
     #Augusto{
-        width: 50%;
+        width: 83%;
+        padding: 15px;    
     }
     .Cautor{
         border: 2px solid red;
-        width: 75%;
         display: flex;
         flex-direction: row;
     }
     #P{
+        display: none;
+    }
+    .Buttons{
+        display: flex;
+        text-align: center;
+        border: 2px solid blueviolet;
+        background-color: aliceblue;
+    }
+    .ButtonB{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 33%;
+    border: 2px solid gold;
+    }
+    #pantheon{
+        width: 100%;
+    }
+    .ButtonB1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 33%;
+        border: 2px solid gold;
+    }
+    #Fontana{
+        width: 100%;
+    }
+    #PD{
+        padding: 25px;
+    }
+    .ButtonB2{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        width: 33%;
+        border: 2px solid gold;
+    }
+    #RR{
+        width: 100%;
+    }
+    #PD1{
+        padding: 18px;
+    }
+    .EnlacesT1{
+        display: flex;
+        padding: 10px;
+    }
+    .EnlacesT{
         display: none;
     }
 }
