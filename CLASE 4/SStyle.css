@@ -52,6 +52,7 @@
     text-align: center;
     width: 50%;
 }
+
 #Cesar{
     width: 100%;
 }
@@ -107,12 +108,18 @@
     #IMG1{
         width: 50%;
     }
+    .AutorP{
+        border: 2px solid grey;
+    }
     .Autor{
         text-align: center;
     }
     #Vespasiano{
         width: 45%;
         padding: 10px;
+    }
+    .AutorP2{
+        border: 2px solid grey;
     }
     .Autor2{
         text-align: center;
@@ -121,11 +128,14 @@
         width: 58%;
         padding: 10px;
     }
+    .AutorP3{
+        border: 2px solid grey;
+    }
     .Autor3{
         text-align: center;
     }
     #Augusto{
-        width: 83%;
+        width: 85%;
         padding: 15px;    
     }
     .Cautor{
@@ -184,5 +194,13 @@
     }
     .EnlacesT{
         display: none;
+    }
+    #P1{
+        text-align: left;
+        padding: 5px;
+    }
+    #P2{
+        text-align: right;
+        padding: 5px;
     }
 }
