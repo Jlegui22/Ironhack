@@ -203,4 +203,7 @@
         text-align: right;
         padding: 5px;
     }
+    #links{
+        border: 2px solid black;
+    }
 }

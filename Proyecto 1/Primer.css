@@ -1,0 +1,41 @@
+.Title1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 135, 156);
+    align-items: center;
+    color: rgb(0, 0, 0);
+    
+  }
+  .Title2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 135, 156);
+    align-items: center;
+    color: rgb(0, 0, 0);
+    
+  }
+  .Title3{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 135, 156);
+    align-items: center;
+    color: rgb(0, 0, 0);
+    
+  }
+  @media (max-width:480px){
+    .Title1{
+        background-color: rgb(162, 162, 115);
+        text-align: center;
+    }
+   .STitle1{
+    display: flex;
+    justify-content: center;
+    
+    }
+   .LinkH{
+    display: flex;
+    justify-content: space-around;
+
+    } 
+
+   }
