@@ -36,6 +36,13 @@
     display: flex;
     justify-content: space-around;
 
-    } 
+    }
+   .IMGF{
+    margin-top: 20px;
+    text-align: center;
+   } 
+   #Viento{
+   width: 100%;
+  } 
 
    }
