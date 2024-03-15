@@ -37,12 +37,190 @@
     justify-content: space-around;
 
     }
+    .R1{
+      display: flex;
+      flex-direction: row;
+    }
+    .IMGF1{
+      display: flex;
+      justify-content: flex-start;
+      width: 50%;
+    }
    .IMGF{
     margin-top: 20px;
     text-align: center;
+    color: gold;
+    font-weight: bold;
+    width: 100%;
    } 
    #Viento{
    width: 100%;
-  } 
+   height: 200px;
+  }
+  #G{
+    color: rgb(18, 115, 18);
+    font-weight: bold;
+  }
+  .R2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+  .IMGP1{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+  }
+ .IMGP{
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(240, 9, 9);
+  font-weight: bold;
+  width: 100%;
+ } 
+ #N{
+  color: black;
+  font-weight: bold;
+ }
+ .R3{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.IMGTR1{
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+.IMGTR{
+margin-top: 20px;
+text-align: center;
+color: rgb(226, 43, 171);
+font-weight: bold;
+width: 100%;
+} 
+ #M{
+  color: rgb(47, 122, 214);
+  font-weight: bold;
+ }
+ .E{
+  display: none;
+ }
+ .E{
+  display: none;
+ }
+ .AN{
+  display: none;
+ }
+ .PIN{
+  display: none;
+ }
+}
+@media (min-width:480px){
 
-   }
+  .STitle1{
+    display: flex;
+    justify-content: center;
+    
+    }
+   .LinkH{
+    display: flex;
+    justify-content: space-around;
+
+    }
+    .R1{
+      display: flex;
+      flex-direction: row-reverse
+    }
+    .IMGF1{
+      display: flex;
+      justify-content: flex-start;
+      width: 50%;
+    }
+   .IMGF{
+    margin-top: 20px;
+    text-align: center;
+    color: gold;
+    font-weight: bold;
+    width: 90%;
+    margin-left: 25px;
+   } 
+   #Viento{
+   width: 100%;
+   height: 200px;
+  }
+  #G{
+    color: rgb(18, 115, 18);
+    font-weight: bold;
+  }
+  .R2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+  }
+  .IMGP1{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+  }
+ .IMGP{
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(240, 9, 9);
+  font-weight: bold;
+  width: 90%;
+  margin-left: 25px;
+ } 
+ #N{
+  color: black;
+  font-weight: bold;
+ }
+ .R3{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10px;
+}
+.IMGTR1{
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+.IMGTR{
+margin-top: 20px;
+text-align: center;
+color: rgb(226, 43, 171);
+font-weight: bold;
+width: 90%;
+margin-left: 25px;
+} 
+ #M{
+  color: rgb(47, 122, 214);
+  font-weight: bolder;
+ }
+ .COL{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+ .E{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  align-items: self-end;
+ }
+#Pato{
+  width: 100px;
+}
+.AN{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+.PIN{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+}
